@@ -1,0 +1,25 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Launch Jogo_da_velha",
+            "request": "launch",
+            "mainClass": "com.jogo_da_velha.Jogo_da_velha",
+            "projectName": "MeuJogoVelha"
+        },
+        {
+            "type": "java",
+            "name": "Launch Jogo_da_velha",
+            "request": "launch",
+            "mainClass": "jogo_da_velha.Jogo_da_velha",
+            "projectName": "MeuJogoVelha"
+        },
+        {
+            "name": "Attach to Chrome",
+            "port": 9222,
+            "request": "attach",
+            "type": "pwa-chrome",
+            "webRoot": "${workspaceFolder}"
+        }
+    ]
+}
